@@ -32,7 +32,7 @@ services:
       - /home/centos/lightsail-ctfd/nginx:/config/nginx/site-confs/default
     depends_on:
       - "no-ip"
-      - "juice-shop"
+      - "ctfd"
     networks:
       - app_net
     healthcheck:
